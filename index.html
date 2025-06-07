@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Marin's Portfolio</title>
+</head>
+
+<body>
+    <header class="color-primary width-100 text-center pb-1">
+        <h1 class="text-light">Luis Angel Marín</h1>
+
+        <nav class="flex-center">
+            <a href="#introduction" class="px-1 a-light">Introduction</a>
+            <a href="#services" class="px-1 a-light">Services</a>
+            <a href="#portfolio" class="px-1 a-light">Portfolio</a>
+            <a href="#contact" class="px-1 a-light">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="flex-row py-1  mt-1" id="introduction">
+            <div class="flex-center flex-column text-center centered-container mx-auto color-accent p-1 border-round text-dark">
+                <h2>Introduction</h2>
+                <p>
+                    I'm a Software Engineer graduated from the Instituto Tecnológico de Sonora (ITSON) with almost a year of experience
+                    of back-end development I can provide a range of solutions for different needs using 
+                    Java, Spring Boot, MySQL, MongoDB, HTML, CSS, JavaScript and AWS following the best practices
+                    in code readability, security and maintainability while working under agile metodologies.
+                </p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="grid-container px-2 py-1" id="services">
+            <div class="mx-auto fill-grid">
+                <h2>Services</h2>
+            </div>
+
+            <div class="card border-1 border-round">
+                <div class="card-header text-center border-round-top">
+                    <h3><b>Development</b></h3>
+                    <img src="resources/code.png" alt="Code logo" class="img-card-icon">
+                </div>
+
+                <div class="card-body text-center px-1 border-round-bottom stretch">
+                    <p>
+                        I can develop complete application for desktop or web using 
+                        Java, Spring Boot, MySQL, MongoDB, HTML, CSS, JavaScript and AWS.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card border-1 border-round">
+                <div class="card-header text-center border-round-top">
+                    <h3><b>Project Planning</b></h3>
+                    <img src="resources/design.png" alt="Design logo" class="img-card-icon">
+                </div>
+
+                <div class="card-body text-center px-1 border-round-bottom stretch">
+                    <p>
+                        I provide professionally written project proposals outlining goals, scopes and projected time lines
+                        for small to medium projects weather it be destop, web or mobile applications working directly with
+                        the client and users to create a ready to use project documentation for development.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card border-1 border-round border-round">
+                <div class="card-header text-center border-round-top">
+                    <h3><b>Consulting</b></h3>
+                    <img src="resources/consultant.png" alt="Consultant logo" class="img-card-icon">
+                </div>
+
+                <div class="card-body text-center px-1 border-round-bottom stretch">
+                    <p>
+                        I provide advice for development of Java aplication with or without Spring Boot for creating
+                        highly efficiently code following best practices and design patterns for high cohesion, low coupling.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card border-1 border-round">
+                <div class="card-header text-center border-round-top">
+                    <h3><b>Software Engineer Mentoring</b></h3>
+                    <img src="resources/mentoring.png" alt="Mentoring logo" class="img-card-icon">
+                </div>
+
+                <div class="card-body text-center px-1 border-round-bottom stretch">
+                    <p>
+                        As a graduated Software Engineer with a 4.0 GPA, I can provide mentoring for those trying to get into
+                        Software Engineering or for those who are already, by giving them advice on how to get throught this career
+                        and assists in hard to learn topics.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <hr>
+
+        <section class="grid-container px-2 py-1" id="portfolio">
+            <div class="mx-auto fill-grid">
+                <h2>Portfolio</h2>
+            </div>
+
+            <div class="taskManagementContainer">
+                <a href="#taskManagement" class="invisible-button">
+                    <div class="card-expandible">
+                        <div class="card-expandible-body text-center border-1 border-round">
+                            <div class="py-1 color-primary border-round-top">
+                                <img src="resources/task-list.png" alt="Task List" class="img-card-icon">
+                            </div>
+            
+                            <div class="color-contrast-darker">
+                                <h3>Task Management</h3>
+                            </div>
+            
+                            <div class="color-accent border-round-bottom">
+                                <p>A small RESTful API for managing tasks.</p>
+                            </div>
+            
+                        </div>
+                    </div>
+                </a>
+            
+                <div class="card-expandible-view border-round border-3 border-highlight color-primary flex-column"
+                    id="taskManagement">
+            
+                    <div class="text-center text-light">
+                        <h2>Task Management</h2>
+                    </div>
+            
+                    <div class="color-secondary parent-width flex-column">
+                        <div class="px-2">
+                            <p>A small Restful API built in Java with Spring Boot for managing tasks</p>
+                            <p>Main features:</p>
+                            <ul>
+                                <li>Manage Tasks</li>
+                                <li>JWT Authentication</li>
+                                <li>Admin Controls</li>
+                            </ul>
+            
+                            <p>Tech Stack:</p>
+                            <ul>
+                                <li>Java 21</li>
+                                <li>Spring Boot</li>
+                                <li>MySQL</li>
+                            </ul>
+                        </div>
+                    </div>
+            
+                    <div class="px-2 py-1 text-center color-accent">
+                        <a href="https://github.com/RowBlackGhost005/TaskManagement-CSA" target="_blank" class="a-dark">Task
+                            Management
+                            Repo</a>
+                    </div>
+            
+                    <div class="text-center py-1">
+                        <a href="#portfolio"><button class="btn px-2">Close</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="eCommerceContainer">
+                <a href="#eCommerce" class="invisible-button">
+                    <div class="card-expandible">
+                        <div class="card-expandible-body text-center border-1 border-round">
+                            <div class="py-1 color-primary border-round-top">
+                                <img src="resources/ecommerce.png" alt="Phone shopping icon" class="img-card-icon">
+                            </div>
+            
+                            <div class="color-contrast-darker">
+                                <h3>E-Commerce</h3>
+                            </div>
+            
+                            <div class="color-accent border-round-bottom">
+                                <p>Complete RESTful API for e-commerce</p>
+                            </div>
+            
+                        </div>
+                    </div>
+                </a>
+            
+                <div class="card-expandible-view border-round border-3 border-highlight color-primary flex-column"
+                    id="eCommerce">
+            
+                    <div class="text-center text-light">
+                        <h2>E-Commerce</h2>
+                    </div>
+            
+                    <div class="color-secondary parent-width flex-column">
+                        <div class="px-2">
+                            <p>
+                                Complete RESTful API for e-commerce management featuring microservices architecture for high
+                                scalability and performance.
+                            </p>
+                            <p>Main features:</p>
+                            <ul>
+                                <li>Microservices architecture</li>
+                                <li>JWT Authentication</li>
+                                <li>Admin Controls</li>
+                                <li>Products Management</li>
+                                <li>Orders Management</li>
+                                <li>Simulated Payment</li>
+                                <li>Single entry point (API Gateway)</li>
+                                <li>Remote configuration server</li>
+                                <li>Discoverability</li>
+                            </ul>
+            
+                            <p>Tech Stack:</p>
+                            <ul>
+                                <li>Java 21</li>
+                                <li>Spring Boot</li>
+                                <li>MySQL</li>
+                            </ul>
+                        </div>
+                    </div>
+            
+                    <div class="px-2 py-1 text-center color-accent">
+                        <a href="https://github.com/RowBlackGhost005/ECommerceMicroservies-CSA" target="_blank" class="a-dark">E-Commerce Repo</a>
+                    </div>
+            
+                    <div class="text-center py-1">
+                        <a href="#portfolio"><button class="btn px-2">Close</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="libraryManagementContainer">
+                <a href="#libraryManagement" class="invisible-button">
+                    <div class="card-expandible">
+                        <div class="card-expandible-body text-center border-1 border-round">
+                            <div class="py-1 color-primary border-round-top">
+                                <img src="resources/books.png" alt="Books Icon" class="img-card-icon">
+                            </div>
+            
+                            <div class="color-contrast-darker">
+                                <h3>Library Management</h3>
+                            </div>
+            
+                            <div class="color-accent border-round-bottom">
+                                <p>Small RESTful API for books management</p>
+                            </div>
+            
+                        </div>
+                    </div>
+                </a>
+            
+                <div class="card-expandible-view border-round border-3 border-highlight color-primary flex-column"
+                    id="libraryManagement">
+            
+                    <div class="text-center text-light">
+                        <h2>Library Management</h2>
+                    </div>
+            
+                    <div class="color-secondary parent-width flex-column">
+                        <div class="px-2">
+                            <p>
+                                Small RESTFul API for managing books.
+                            </p>
+                            <p>Main features:</p>
+                            <ul>
+                                <li>Book management</li>
+                                <li>MySQL Integration</li>
+                                <li>Customized Search</li>
+                            </ul>
+            
+                            <p>Tech Stack:</p>
+                            <ul>
+                                <li>Java 21</li>
+                                <li>Spring Boot</li>
+                                <li>MySQL</li>
+                            </ul>
+                        </div>
+                    </div>
+            
+                    <div class="px-2 py-1 text-center color-accent">
+                        <a href="https://github.com/RowBlackGhost005/ECommerceMicroservies-CSA" target="_blank" class="a-dark">E-Commerce Repo</a>
+                    </div>
+            
+                    <div class="text-center py-1">
+                        <a href="#portfolio"><button class="btn px-2">Close</button></a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="fantasyBattleSimulatorContainer">
+                <a href="#fantasyBattleSimulator" class="invisible-button">
+                    <div class="card-expandible">
+                        <div class="card-expandible-body text-center border-1 border-round">
+                            <div class="py-1 color-primary border-round-top">
+                                <img src="resources/sword.png" alt="Sword and Shield icon" class="img-card-icon">
+                            </div>
+            
+                            <div class="color-contrast-darker">
+                                <h3>Fantasy Battle Simulator</h3>
+                            </div>
+            
+                            <div class="color-accent border-round-bottom">
+                                <p>Console-based battle game</p>
+                            </div>
+            
+                        </div>
+                    </div>
+                </a>
+            
+                <div class="card-expandible-view border-round border-3 border-highlight color-primary flex-column"
+                    id="fantasyBattleSimulator">
+            
+                    <div class="text-center text-light">
+                        <h2>Fantasy Battle Simulator</h2>
+                    </div>
+            
+                    <div class="color-secondary parent-width flex-column">
+                        <div class="px-2">
+                            <p>
+                                Console-based battle game with turn-base mechanics, power ups and multiple characters to fight with and against.
+                            </p>
+                            <p>Main features:</p>
+                            <ul>
+                                <li>Console-Based</li>
+                                <li>Turn-Based gameplay</li>
+                                <li>Battle creation</li>
+                                <li>Abilities</li>
+                                <li>4 Different characters</li>
+                                <li>Pseudo AI opponents</li>
+                            </ul>
+            
+                            <p>Tech Stack:</p>
+                            <ul>
+                                <li>Java 21</li>
+                            </ul>
+                        </div>
+                    </div>
+            
+                    <div class="px-2 py-1 text-center color-accent">
+                        <a href="https://github.com/RowBlackGhost005/FantasyBattleSimulatorCSA" target="_blank" class="a-dark">Fantasy Battle Repo</a>
+                    </div>
+            
+                    <div class="text-center py-1">
+                        <a href="#portfolio"><button class="btn px-2">Close</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="humanVsGoblinsContainer">
+                <a href="#humanVsGoblins" class="invisible-button">
+                    <div class="card-expandible">
+                        <div class="card-expandible-body text-center border-1 border-round">
+                            <div class="py-1 color-primary border-round-top">
+                                <img src="resources/goblin.png" alt="A gobling with a sword" class="img-card-icon">
+                            </div>
+            
+                            <div class="color-contrast-darker">
+                                <h3>Human vs Goblins</h3>
+                            </div>
+            
+                            <div class="color-accent border-round-bottom">
+                                <p>Console-based grid open-world game</p>
+                            </div>
+            
+                        </div>
+                    </div>
+                </a>
+            
+                <div class="card-expandible-view border-round border-3 border-highlight color-primary flex-column"
+                    id="humanVsGoblins">
+            
+                    <div class="text-center text-light">
+                        <h2>Humans vs Goblins</h2>
+                    </div>
+            
+                    <div class="color-secondary parent-width flex-column">
+                        <div class="px-2">
+                            <p>
+                                Console-based grid videogame where you wander through a land full of goblins and treasures.
+                            </p>
+                            <p>Main features:</p>
+                            <ul>
+                                <li>Console-based</li>
+                                <li>Grid World</li>
+                                <li>Chance based fight</li>
+                                <li>Open-world</li>
+                            </ul>
+            
+                            <p>Tech Stack:</p>
+                            <ul>
+                                <li>Java 21</li>
+                            </ul>
+                        </div>
+                    </div>
+            
+                    <div class="px-2 py-1 text-center color-accent">
+                        <a href="https://github.com/RowBlackGhost005/HumanVsGoblins" target="_blank" class="a-dark">Human vs Goblins Repo</a>
+                    </div>
+            
+                    <div class="text-center py-1">
+                        <a href="#portfolio"><button class="btn px-2">Close</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fileTransferContainer">
+                <a href="#fileTransfer" class="invisible-button">
+                    <div class="card-expandible">
+                        <div class="card-expandible-body text-center border-1 border-round">
+                            <div class="py-1 color-primary border-round-top">
+                                <img src="resources/file-transfer.png" alt="A file being transfered" class="img-card-icon">
+                            </div>
+            
+                            <div class="color-contrast-darker">
+                                <h3>File transfer Server</h3>
+                            </div>
+            
+                            <div class="color-accent border-round-bottom">
+                                <p>A file transfer system (Host and Client)</p>
+                            </div>
+            
+                        </div>
+                    </div>
+                </a>
+            
+                <div class="card-expandible-view border-round border-3 border-highlight color-primary flex-column"
+                    id="fileTransfer">
+            
+                    <div class="text-center text-light">
+                        <h2>File transfer Server</h2>
+                    </div>
+            
+                    <div class="color-secondary parent-width flex-column">
+                        <div class="px-2">
+                            <p>
+                                Small project with a Host and a Client that allows for file transfer using UDP Sockets with file
+                                validation.
+                            </p>
+                            <p>Main features:</p>
+                            <ul>
+                                <li>Console-based</li>
+                                <li>Transfer files</li>
+                                <li>File validation</li>
+                                <li>Sockets</li>
+                            </ul>
+            
+                            <p>Tech Stack:</p>
+                            <ul>
+                                <li>Java 17</li>
+                            </ul>
+                        </div>
+                    </div>
+            
+                    <div class="px-2 py-1 text-center color-accent">
+                        <a href="https://github.com/RowBlackGhost005/FileServer" target="_blank" class="a-dark">File Server Repo</a>
+                    </div>
+            
+                    <div class="text-center py-1">
+                        <a href="#portfolio"><button class="btn px-2">Close</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="facebootContainer">
+                <a href="#faceboot" class="invisible-button">
+                    <div class="card-expandible">
+                        <div class="card-expandible-body text-center border-1 border-round">
+                            <div class="py-1 color-primary border-round-top">
+                                <img src="resources/faceboot.png" alt="A file being transfered" class="img-card-icon">
+                            </div>
+            
+                            <div class="color-contrast-darker">
+                                <h3>Faceboot</h3>
+                            </div>
+            
+                            <div class="color-accent border-round-bottom">
+                                <p>Social media created in Java</p>
+                            </div>
+            
+                        </div>
+                    </div>
+                </a>
+            
+                <div class="card-expandible-view border-round border-3 border-highlight color-primary flex-column"
+                    id="faceboot">
+            
+                    <div class="text-center text-light">
+                        <h2>Faceboot</h2>
+                    </div>
+            
+                    <div class="color-secondary parent-width flex-column">
+                        <div class="px-2">
+                            <p>
+                                A complete social media with Posts, Comments, Direct messages, OAuth, E-mail and SMS validation
+                                built with Java and JavaFX following peer-to-peer architecture
+                            </p>
+                            <p>Main features:</p>
+                            <ul>
+                                <li>Oauth w/ Twitter and Facebook</li>
+                                <li>Create, Like and Comment Posts</li>
+                                <li>Direct messages</li>
+                                <li>E-mail and SMS Validation</li>
+                                <li>Peer-To-Peer architecture</li>
+                                <li>Working with Sockets</li>
+                            </ul>
+            
+                            <p>Tech Stack:</p>
+                            <ul>
+                                <li>Java 17</li>
+                                <li>Java FX</li>
+                                <li>SQLite</li>
+                            </ul>
+                        </div>
+                    </div>
+            
+                    <div class="px-2 py-1 text-center color-accent">
+                        <a href="https://github.com/RowBlackGhost005/Faceboot" target="_blank" class="a-dark">Faceboot Repo</a>
+                    </div>
+            
+                    <div class="text-center py-1">
+                        <a href="#portfolio"><button class="btn px-2">Close</button></a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <hr>
+
+        <section class="flex-column px-2 py-1 centered-container mx-auto" id="contact">
+            
+            <div class="mx-auto">
+                <h2 class="">Contact</h2>
+            </div>
+
+            <div class="mx-auto">
+                <p>
+                    Have an inquiry or want to connect? <br>
+                    Contact me using the form below
+                </p>
+            </div>
+
+            <div class="flex-column centered-container mx-auto">
+                <form action="mailto:la.marin@outlook.com" class="flex-column gap-1 px-3 border-1 py-1 border-round">
+                    <div class="form-input text-right">
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="name" placeholder="John" required>
+                    </div>
+
+                    <div class="form-input text-right">
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" placeholder="mail@mail.com" required>
+                    </div>
+
+                    <div class="form-input text-right">
+                        <label for="message">Message: </label>
+                        <textarea name="message" id="message" cols="25" rows="3" placeholder=""></textarea>
+                    </div>
+
+                    <div class="mx-auto pt-1">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="color-primary text-light">
+        <div class="flex-column text-center">
+            <p>Developed by: Luis Marin</p>
+            <p><i>All Rights Reserved 2025</i></p>
+        </div>
+    </footer>
+</body>
+
+</html>
